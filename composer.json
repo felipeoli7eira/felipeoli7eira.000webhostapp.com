@@ -1,0 +1,26 @@
+{
+    "name": "felipeoli7eira/personal",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Felipe Oliveira",
+            "email": "me.felipeoliveira@gmail.com",
+            "homepage": "https://felipeoli7eira.000webhostapp.com",
+            "role": "Developer"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+        "files": [
+            "source/Support/config.php",
+            "source/Support/helpers.php"
+        ]
+    },
+    "require": {
+    }
+}
